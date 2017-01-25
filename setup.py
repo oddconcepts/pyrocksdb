@@ -15,6 +15,8 @@ mod1 = Extension(
     sources,
     extra_compile_args=[
         '-std=c++11',
+        '-stdlib=libc++',
+        '-mmacosx-version-min=10.7',
         '-O3',
         '-Wall',
         '-Wextra',
